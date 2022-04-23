@@ -15,6 +15,7 @@ lista1.map(
 
 const lista1Array = Object.entries(lista1Count).sort(
     function (valorAcumulado, nuevoValor){
-        
+        return valorAcumulado - nuevoValor 
     }
 );
+const moda = lista1Array[lista1Array.length - 1];
